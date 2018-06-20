@@ -1,0 +1,10 @@
+{
+  "name": "gvc-styleguide",
+  "version": "1.0.0",
+  "description": "Styleguide for the GVC",
+  "author": "Justin Munn",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
