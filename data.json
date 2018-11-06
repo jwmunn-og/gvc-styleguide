@@ -1,15 +1,15 @@
 {
-    "project_logo": null,
+    "project_logo": "http://www.globalvaluecommerce.com/creative/logos/GVC-logo.gif",
     "project_favicon": "favicon.png",
-    "project_name": null,
+    "project_name": "GVC Brand Guidelines",
     "project_url": null,
     "copyright_start_year": null,
     "client_name": null,
     "client_url": null,
     "creators": [
         {
-            "name": null,
-            "url": null
+            "name": "Justin Munn",
+            "url": "http://justinmunn.co"
         }
     ],
     "theme": {
@@ -24,9 +24,9 @@
         "show_version": true,
         "max_width": null,
         "titles": {
-            "library_title": "Pattern Library",
+            "library_title": "GVC Brand Guidelines",
             "pages_title": "Overview",
-            "components_title": "Components"
+            "components_title": "Brands"
         }
     },
     "assets": {
@@ -51,26 +51,89 @@
     },
     "groups": [
         {
-            "name": "branding",
-            "title": "Primary colors",
+            "name": "global-golf",
+            "title": "Global Golf",
             "components": [
                 {
-                    "group": "branding",
+                    "group": "global-golf",
                     "name": "color-palette",
-                    "title": "Brand colors",
+                    "title": "Color Palette",
                     "type": "colors",
                     "colors": [
                         "#1c5899, #177be5",
                         "#991c1c, #e51717",
                         "#477a16, #65b020",
                         "#99581c, #e57b17",
-                        "#ffffe8",
-                        "#e8f9ff",
+                        "#e8f9ff, #ffffe8",
                         "#2a3133",
                         "#546266",
                         "#a2afb3",
                         "#dfe4e6"
                     ]
+                },
+                {
+                    "name": "typography",
+                    "title": "Typography",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "global-golf"
+                },
+                {
+                    "name": "logos",
+                    "title": "Logos",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "global-golf"
+                },
+                {
+                    "name": "homepage",
+                    "title": "Homepage",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    },
+                    "group": "global-golf"
+                },
+                {
+                    "group": "global-golf",
+                    "name": "newsletter",
+                    "title": "Newsletter",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "3balls",
+            "title": "3balls",
+            "components": [
+                {
+                    "group": "3balls",
+                    "name": "images",
+                    "title": "Images",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "images",
+            "title": "Newsletter Hero Image",
+            "components": [
+                {
+                    "name": "newsletters",
+                    "title": "Images",
+                    "options": {},
+                    "group": "images"
                 }
             ]
         }

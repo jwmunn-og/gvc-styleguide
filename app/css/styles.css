@@ -1095,3 +1095,9 @@
         border-radius: 0 0 6px 6px;
     }
 }
+
+/** Global style changes
+ * ----------------------------------------//
+ */
+
+ .modules img { max-width:640px !important; width:100% !important; height:auto !important; }
