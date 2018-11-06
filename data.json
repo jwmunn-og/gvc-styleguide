@@ -24,13 +24,17 @@
         "show_version": true,
         "max_width": null,
         "titles": {
-            "library_title": "GVC Brand Guidelines",
+            "library_title": null,
             "pages_title": "Overview",
             "components_title": "Brands"
         }
     },
     "assets": {
-        "css": [],
+        "css": [
+            "https://www.globalgolf.com/common/bundles/css/homepage.min.css",
+            "https://s3.amazonaws.com/cloudimg.globalgolf.com/images/Homepage/CSS/Homepage-2-1.css",
+            "https://www.globalgolf.com/css/hometemplate1.min.css"
+        ],
         "js": []
     },
     "font_libraries": {
@@ -94,20 +98,19 @@
                     "title": "Homepage",
                     "width": "half",
                     "options": {
-                        "sample_dark_background": true,
+                        "sample_dark_background": false,
                         "disable_code_sample": true
                     },
                     "group": "global-golf"
                 },
                 {
-                    "group": "global-golf",
                     "name": "newsletter",
                     "title": "Newsletter",
                     "width": "half",
                     "options": {
-                        "sample_dark_background": true,
                         "disable_code_sample": true
-                    }
+                    },
+                    "group": "global-golf"
                 }
             ]
         },
@@ -117,23 +120,21 @@
             "components": [
                 {
                     "group": "3balls",
-                    "name": "images",
-                    "title": "Images",
-                    "options": {
-                        "disable_code_sample": true
-                    }
-                }
-            ]
-        },
-        {
-            "name": "images",
-            "title": "Newsletter Hero Image",
-            "components": [
-                {
-                    "name": "newsletters",
-                    "title": "Images",
-                    "options": {},
-                    "group": "images"
+                    "name": "color-palette",
+                    "title": "Color palette",
+                    "type": "colors",
+                    "colors": [
+                        "#1c9958,#17E57B",
+                        "#FF6600,#FF9A57",
+                        "#2495c9,#80D7FF",
+                        "#E50039, #1C1C99",
+                        "",
+                        "#0B0D0C",
+                        "#546266",
+                        "#75807a",
+                        "#B8BFBB",
+                        "#EDF2F0"
+                    ]
                 }
             ]
         }
